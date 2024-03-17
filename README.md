@@ -8,6 +8,5 @@ Use Commvault Rest API to create Azure Object backups for multiple Azure Storage
 - The script will loop through each line in the csv file and create a credential for file and instance for Azure File and Azure Blob
 - The script will use a pre-existing service principal cred for blob. It should exist already in Commvault
 - The script will output a log file in the same directory as the script
-- Need to set the $planName and $accessNodes variables
-- Need to set the $commserve variable
+- Need to set the `$planName`, `$commserve`, and `$accessNodes` variables.
 - Domain user credentials should be in format `username@domain`
